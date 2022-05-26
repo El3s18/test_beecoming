@@ -1,0 +1,28 @@
+[
+    {
+        "id":1 , 
+
+        "country": "Germany",
+
+        "city": "Berlin", 
+
+        "population":"3.654 millions d'habitants" },
+
+    {
+        "id":2 , 
+        
+        "country": "Spain", 
+        
+        "city": "Madrid", 
+        
+        "population":"3.223 millions d'habitants" },
+
+    {
+        "id":3, 
+        
+        "country": "Italy", 
+        
+        "city": "Rome", 
+        
+        "population":"2.873 millions d'habitants" }
+  ]
