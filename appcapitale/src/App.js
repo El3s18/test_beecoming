@@ -148,7 +148,7 @@ const handleDeleteClick = (cityId) => {
         </input>
         <input
          type='text' 
-         name='city' 
+         name='country' 
          required='required' 
          placeholder = 'New capital'
          onChange={handleAddFormChange}
