@@ -8,6 +8,7 @@ import EditableCity from './EditableCity';
 
 function App() {
 const [citys, setCity] = useState(data);
+
 const [addFormData, setAddFormData] = useState({
   'country' : '',
   'city' : '',
@@ -23,7 +24,7 @@ const [editFormData, setEditFormData] = useState({
 const handleAddFormChange = (event) => {
   event.preventDefault();
 
-  const fieldName = event.target.getAttribute("name");
+  const fieldName = event.target.getAttribute('name');
   const fieldValue = event.target.value;
 
   const newFormData = { ...addFormData};
@@ -144,24 +145,21 @@ const handleDeleteClick = (cityId) => {
         required='required' 
         placeholder = 'New country' 
         onChange={handleAddFormChange}
-        >
-        </input>
+        />
         <input
          type='text' 
          name='country' 
          required='required' 
          placeholder = 'New capital'
          onChange={handleAddFormChange}
-         >
-         </input>
-        <input 
+         />
+        <input
         type='text' 
         name='population' 
         required='required' 
         placeholder = 'Population'
         onChange={handleAddFormChange}
-        >
-        </input>
+        />
         <button type='Submit'>Add</button>
       </form>
       </form>
